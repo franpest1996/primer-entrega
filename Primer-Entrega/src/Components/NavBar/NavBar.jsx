@@ -6,10 +6,10 @@ function NavBar() {
     return (
       <nav className='NavBar'>  
         <ul>
-            <li><Link to='/Inicio'>Inicio</Link></li>
-            <li><Link to='/productos'>Productos</Link></li>
-            <li><Link to='/info'>Info</Link></li>
-            <a href=""><li><CartWidget/></li></a>
+            <li><NavLink to='/Inicio'>Inicio</NavLink></li>
+            <li><NavLink to='/productos'>Productos</NavLink></li>
+            {/* <li><NavLink to='/info'>Info</NavLink></li> */}
+            <li><NavLink to='/cart'><CartWidget/></NavLink></li>
         </ul>
       </nav>
     )

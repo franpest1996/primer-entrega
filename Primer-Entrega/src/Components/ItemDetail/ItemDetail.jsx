@@ -5,7 +5,6 @@ const ItemDetail = ({producto}) => {
         <p>{producto.Producto}</p>
         <p>Talle: {producto.Talle}</p>
         <p>Precio: {producto.Precio}</p>
-        <p>{producto.imagen}</p>
       </div>
     )
   }
